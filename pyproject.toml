@@ -23,6 +23,20 @@ dependencies = [
     'imageio',
     'numba',
     'numpy',
+    'pandas',
+    'scikit-image',
+    'scipy',
+    'tqdm',
+    'xarray'
+]
+
+[project.optional-dependencies]
+all = [
+    'deeptile',
+    'huggingface-hub',
+    'imageio',
+    'numba',
+    'numpy',
     'opencv-python',
     'pandas',
     'scikit-image',
